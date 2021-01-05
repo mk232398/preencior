@@ -12,6 +12,9 @@ html, body {
     height: 100vh;
     overflow: hidden;
     width: 100%;
+    padding: 0 1rem;
+    background-color: #F6A89B;
+
  }
  
 .section1{
@@ -64,22 +67,26 @@ a{
 .wrapper{
     position: absolute;
     width: 100%;
-    
+    border-radius: 20px;
+    height: 400px;
     background-color: #6C63FF;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10000;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .left{
     color: #f6e7e5;
-    flex-basis: 30%;
+    flex-basis: 20%;
+    padding: 20px 0;
 }
-
-
+.right{
+    flex-basis: 60%;
+}
 .prezencik{
     position: absolute;
     top: 40%;
@@ -123,16 +130,7 @@ a{
 .cursor{
     color: white;
 }
-/* .balonik1{
-    position: fixed;
-    top: -10%;
 
-    left: 60%;
-    z-index: 55;
-    transform: translateX(-50%);
-
-    
-} */
 .balonik2{
     position: fixed;
     top: -10%;
@@ -203,12 +201,5 @@ a{
     
 }
 
-/* .balonik9{
-    position: fixed;
-    top: -10%;
-    left: 90%;
-    transform: translateX(-50%);
-    z-index: 10;
-    
-} */
+
 
