@@ -6,7 +6,7 @@ gsap.from(".textOld", {opacity: 0, delay: 2})
 gsap.to(".wishesTextHer", {
     
     text: {
-        value: "wszystkiego najlepszego, zdrowia, szczęścia i innych pierdół, znalezienia sobie super zajęcia i dobrego powodu, żeby wstawać codziennie rano z nadzieją, że spełniasz swoje postanowione cele i marzenia, po prostu samych dobrych rzeczy!  ",
+        value: `wszystkiego najlepszego, zdrowia, szczęścia i innych pierdół tradycyjnie &#129315, prawdziwych oraz dobrych ludzi wokół siebie, no i życzę Ci dobrego powodu, żeby wstawać codziennie rano z nadzieją, że to co robisz ma sens, po prostu wish you all the best!`,
         speed: "0.5"
     },
     ease: "none",
